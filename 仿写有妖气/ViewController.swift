@@ -12,6 +12,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        var hit = UILabel.init()
+        self.view.addSubview(hit)
+        
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
